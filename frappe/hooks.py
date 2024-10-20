@@ -2,8 +2,14 @@ import os
 
 from . import __version__ as app_version
 
+brand_html = """
+<a href="/" style="display: block; height: 80px;">
+	<img style="height:80px;" src="/assets/frappe/images/morditech/morditech_logo_nobg.png" alt="Morditech ERP">
+</a>
+""".strip()
+
 app_name = "frappe"
-app_title = "Framework"
+app_title = "Administration"
 app_publisher = "Frappe Technologies"
 app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
 app_license = "MIT"

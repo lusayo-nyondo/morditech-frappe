@@ -312,8 +312,8 @@
    "type": "Link"
   }
  ],
- "modified": "2024-09-30 17:39:36.060170",
- "modified_by": "Administrator",
+ "modified": "2024-10-12 10:15:04.316855",
+ "modified_by": "lusayohendy@gmail.com",
  "module": "Core",
  "name": "Build",
  "number_cards": [],
@@ -322,7 +322,14 @@
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
- "roles": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "Workspace Manager"
+  }
+ ],
  "sequence_id": 1.0,
  "shortcuts": [
   {
