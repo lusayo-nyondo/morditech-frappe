@@ -10,10 +10,10 @@ brand_html = """
 
 app_name = "frappe"
 app_title = "Administration"
-app_publisher = "Frappe Technologies"
-app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
+app_publisher = "Morditech Solutions"
+app_description = "Frappe fork for Morditech."
 app_license = "MIT"
-app_logo_url = "/assets/frappe/images/frappe-framework-logo.svg"
+app_logo_url = "/assets/frappe/images/morditech/morditech_logo_nobg.png"
 develop_version = "15.x.x-develop"
 app_home = "/app/build"
 
@@ -554,7 +554,7 @@ standard_help_items = [
 		"is_standard": 1,
 	},
 	{
-		"item_label": "Frappe Support",
+		"item_label": "Support",
 		"item_type": "Route",
 		"route": "https://frappe.io/support",
 		"is_standard": 1,
