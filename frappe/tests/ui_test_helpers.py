@@ -434,7 +434,7 @@ def create_test_user(username=None):
 
 	user = frappe.new_doc("User")
 	user.email = name
-	user.first_name = "Frappe"
+	user.first_name = "Morditech"
 	user.new_password = frappe.local.conf.admin_password
 	user.send_welcome_email = 0
 	user.time_zone = "Asia/Kolkata"

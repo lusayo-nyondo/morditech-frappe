@@ -23,7 +23,7 @@ class TestSocialLoginKey(FrappeTestCase):
 
 	def test_adding_frappe_social_login_provider(self):
 		frappe.set_user("Administrator")
-		provider_name = "Frappe"
+		provider_name = Morditech
 		social_login_key = make_social_login_key(social_login_provider=provider_name)
 		social_login_key.get_social_login_provider(provider_name, initialize=True)
 		self.assertRaises(BaseUrlNotSetError, social_login_key.insert)
@@ -101,7 +101,7 @@ def create_or_update_social_login_key():
 		social_login_key = frappe.get_doc("Social Login Key", "frappe")
 	except frappe.DoesNotExistError:
 		social_login_key = frappe.new_doc("Social Login Key")
-	social_login_key.get_social_login_provider("Frappe", initialize=True)
+	social_login_key.get_social_login_provider(Morditech, initialize=True)
 	social_login_key.base_url = frappe.utils.get_url()
 	social_login_key.enable_social_login = 0
 	social_login_key.save()
